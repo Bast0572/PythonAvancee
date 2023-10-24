@@ -20,9 +20,9 @@ def plus_grand_nombre_pair(liste):
     
     # on affiche le nombre final ou 'none' si il n'y a pas de nombre pair
     if (nombre ==0):
-        print(None)
+        return print(None)
     else:
-        print(nombre)
+        return print(nombre)
 
 # on appelle la méthode en passant en paramètre la liste de nombre
 plus_grand_nombre_pair(liste)
