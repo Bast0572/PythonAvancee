@@ -1,7 +1,7 @@
 # mini projet - plus grand nombre pair -python
 
 # liste contenant des nombres 
-liste=[1,3,7,8,10,24,35]
+liste=[8,1,10,3,7,24,35]
 
 # méthode retournant le plus grand nombre pair de la liste passer en paramètre
 def plus_grand_nombre_pair(liste):
@@ -17,8 +17,12 @@ def plus_grand_nombre_pair(liste):
             # on vérifie si item est supérieur au nombre
             if(item>nombre):
                 nombre=item
-    # on affiche le nombre final
-    print(nombre)
+    
+    # on affiche le nombre final ou 'none' si il n'y a pas de nombre pair
+    if (nombre ==0):
+        print(None)
+    else:
+        print(nombre)
 
 # on appelle la méthode en passant en paramètre la liste de nombre
 plus_grand_nombre_pair(liste)
