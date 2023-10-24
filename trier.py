@@ -1,3 +1,5 @@
+# mini projet vérifier si une liste est triée par ordre croissant ou pas
+
 # fonction qui prend en paramèter une liste
 def est_triee(liste):
 
