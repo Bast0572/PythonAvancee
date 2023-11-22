@@ -14,5 +14,5 @@ def recherche_binaire(liste, param):
 
     return print('-1')
 
-recherche_binaire([1,2,3,4,5,7,8,9],5)
+recherche_binaire([1,2,3,4,5,7,8,9],1)
 
