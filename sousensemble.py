@@ -10,3 +10,4 @@ def ensemble(liste,k):
         if (sum(sousensemble)>k):
             sousensemble=[]
 # 
+
